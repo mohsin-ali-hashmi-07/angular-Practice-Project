@@ -1,0 +1,17 @@
+
+@use "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #348F50;
+    background: -webkit-linear-gradient(to right, #56B4D3, #348F50);
+    background: linear-gradient(to right, #56B4D3, #348F50);
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }

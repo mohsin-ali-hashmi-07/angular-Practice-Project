@@ -1,0 +1,17 @@
+<h4 class="text-center">Enter your expense</h4>
+<hr />
+
+<div class="mb-3">
+    <label for="name" class="form-label">Expense</label>
+    <input [(ngModel)] = "name" type="text" class="form-control" id="name" placeholder="Eg: Food">
+</div>
+
+<div class="mb-3">
+    <label for="amount" class="form-label">Amount</label>
+    <input [(ngModel)] = "amount" type="number" class="form-control" id="amount" placeholder="Enter your Budget" autocomplete="off">
+</div>
+
+<div class="d-grid gap-2">
+
+    <button (click)="addExpense()"  type="button" class="btn btn-secondary mt-2">Add Expense</button>
+</div>
