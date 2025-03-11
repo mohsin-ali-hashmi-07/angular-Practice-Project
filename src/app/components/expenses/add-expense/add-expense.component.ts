@@ -21,5 +21,8 @@ export class AddExpenseComponent {
       amount: this.amount
     }
     this.budgetService.addExpenses(expense)
+
+    this.name = "";
+    this.amount = 0;
   }
 }
